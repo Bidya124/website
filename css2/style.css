@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #dae1e7;
+}
+
+/* header section begin */
+header {
+  width: 100%;
+  float: left;
+  background: teal;
+  /* height: 85px; */
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 61.66%;
+  float: left;
+}
+
+.logo {
+  width: 15%;
+  float: left;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 50px 10px 10px 10px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.socialicon {
+  width: 23.33%;
+  float: left;
+}
+
+.socialicon ul li {
+  display: inline-block;
+  padding: 50px 10px 10px 10px;
+}
+
+.socialicon ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logoimg {
+  width: 85%;
+  margin: 0 auto;
+  background-image: url(../img/images3.jpeg);
+  padding: 30px;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+/* header section ends */
+/* option section begins */
+.lgimgprnt {
+  width: 100%;
+  float: left;
+}
+
+.options {
+  background: #556b2f9e;
+  width: 45%;
+  margin-left: 70px;
+}
+
+.options h1 {
+  color: bisque;
+  display: block;
+  padding: 20px 20px 0px;
+  font-size: 50px;
+}
+
+.options h3 {
+  color: ivory;
+  display: block;
+  padding: 20px;
+  font-size: 25px;
+}
+
+form ul {
+  padding: 40px;
+}
+
+form ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+form ul li .btn {
+  text-align: center;
+  padding: 30px 0px;
+  margin: 20px;
+  width: 170px;
+  float: left;
+  background: #008b8b9e;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bolder;
+  color: aliceblue;
+  font-variant: small-caps;
+  border-radius: 16px;
+}
+
+.partcontrol {
+  width: 100%;
+  float: left;
+}
+
+.logoimg2, .logoimg3 {
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.part {
+  width: 22%;
+  float: left;
+  padding: 50px 15px 20px 15px;
+}
+
+.part h2 {
+  color: olive;
+  font-size: 30px;
+  font-style: normal;
+  /* display: block; */
+  text-align: center;
+}
+
+.part a i {
+  color: slateblue;
+  font-size: 40px;
+  /* text-align: center; */
+  padding: 10px 20px;
+  margin: 0 90px;
+}
+
+.part button {
+  padding: 10px;
+  margin: 5px 30%;
+  background: brown;
+}
+
+/* npart section begin */
+.npart {
+  width: 100%;
+  float: left;
+}
+
+.npart1 {
+  width: 50%;
+  float: left;
+}
+
+.npart1 h1 {
+  display: block;
+  margin: 10px auto 30px auto;
+  color: darkgoldenrod;
+  text-align: center;
+  font-size: 35px;
+}
+
+.npart1 ul {
+  text-align: left;
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0 100px;
+  font-size: large;
+  color: darkslategray;
+}
+
+.npart1 ul li i {
+  color: green;
+  font-size: large;
+  padding: 5px 20px;
+}
+
+.npart2 {
+  width: 90%;
+  background: #d2b48c6b;
+  padding: 20px 0;
+}
+
+.npart2 button {
+  padding: 10px 25px;
+  margin: 25px 35%;
+  background: slategray;
+}
+
+/* npart section end */
+/* blog section begin */
+.blog {
+  width: 100%;
+  float: left;
+}
+
+.blog .b {
+  text-align: center;
+  font-size: 40px;
+  color: darkgreen;
+  margin: 40px auto 25px;
+}
+
+.blg1 {
+  width: 50%;
+  float: left;
+}
+
+.blg1 h1 {
+  text-align: center;
+  color: darkgreen;
+  font-size: 25px;
+  padding: 0 0 20px 0;
+}
+
+.blg1 p {
+  color: saddlebrown;
+  padding: 0 70px;
+  font-size: large;
+  margin: 0 0 40px 0;
+}
+
+.blg1 p i {
+  color: #ab2912;
+  font-size: larger;
+}
+
+/* blog section ends */
+/* about section */
+.about {
+  background: #5f9ea085;
+  ;
+  padding: 40px;
+  width: 100%;
+  float: left;
+}
+
+.about ul {
+  list-style-type: none;
+  text-align: center;
+  color: currentColor;
+  font-size: 20px;
+}
+
+.about ul li i {
+  color: black;
+  padding: 5px;
+}
+
+.about button {
+  margin-left: 85%;
+  padding: 10px;
+}
+
+/* about section end */
+/* rating */
+.rate {
+  width: 100%;
+  float: left;
+}
+
+.rate h1 {
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  margin: 30px 0 10px 0;
+  color: olive;
+  font-size: 35px;
+}
+
+.rate .stars {
+  margin: 10px 45% 30px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* rating end */
+/* footer */
+footer {
+  width: 100%;
+  background: teal;
+  float: left;
+}
+
+footer p {
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  width: 50%;
+  float: left;
+}
